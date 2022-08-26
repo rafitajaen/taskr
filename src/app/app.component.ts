@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { AppState } from './interfaces/app-state';
+import { Project } from './interfaces/project';
+import { DataService } from './services/data/data.service';
 import { LocalService } from './services/local/local.service';
 
 @Component({
@@ -8,9 +11,10 @@ import { LocalService } from './services/local/local.service';
 })
 export class AppComponent {
   title = 'taskr';
+  projects: Project[] = [];
 
-  constructor(private localStore: LocalService) {
-
+  constructor(private localStore: LocalService, private state: DataService) {
+    this.projects = state.getAllProjects();
   }
 
 }

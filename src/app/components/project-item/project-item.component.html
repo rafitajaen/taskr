@@ -1,0 +1,44 @@
+<div
+  id="{{ 'project-' + index }}"
+  *ngIf="index < maxItems - 1; else showLast"
+  ngClass="flex flex-col"
+>
+  <div
+    ngClass="flex h-28 w-28 justify-center items-stretch rounded hover:border-2 hover:border-indigo-600 bg-green-600 self-center"
+  >
+    <p ngClass="text-slate-50 font-bold self-center text-2xl">
+      {{ item.title.charAt(0) }}
+    </p>
+  </div>
+
+  <p ngClass="text-slate-50 font-semibold self-center ">
+    {{ item.title }}
+  </p>
+</div>
+
+<ng-template #showLast>
+  <div *ngIf="length === 6" ngClass="flex flex-col">
+    <div
+      id="{{ 'project-' + index }}"
+      ngClass="flex h-24 w-24 justify-center items-stretch rounded hover:border-2 hover:border-indigo-600 bg-green-600 self-center"
+    >
+      <p ngClass="text-slate-50 font-bold self-center text-2xl">
+        {{ item.title.charAt(0) }}
+      </p>
+    </div>
+
+    <p ngClass="text-slate-50 font-semibold self-center ">
+      {{ item.title }}
+    </p>
+  </div>
+  <div *ngIf="length > 6 && index === maxItems - 1" ngClass="flex flex-col">
+    <div
+      id="{{ 'project-' + index }}"
+      ngClass="flex h-24 w-24 justify-center items-stretch rounded hover:border-2 hover:border-indigo-600 bg-slate-500 self-center"
+    >
+      <p ngClass="text-slate-50 font-bold self-center text-2xl">
+        {{ length - 5 }}+
+      </p>
+    </div>
+  </div>
+</ng-template>

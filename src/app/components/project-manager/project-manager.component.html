@@ -1,0 +1,40 @@
+<div id="logo" ngClass="p-6 text-slate-50 font-semibold font-mono">taskr</div>
+<div ngClass="mx-24">
+  <p id="greeting" ngClass="text-2xl text-slate-50 font-semibold">
+    Hi Samantha
+  </p>
+  <p id="greeting" ngClass="text-base text-slate-400">
+    Welcome back to the workspace, we missed You!
+  </p>
+
+  <div id="projects-title" ngClass="flex flex-row gap-x-2 mt-10 mr-20">
+    <p ngClass="text-slate-50 font-semibold">Projects</p>
+    <p ngClass="text-slate-400 font-semibold flex-1">({{ projects.length }})</p>
+    <button
+      type="button"
+      ngClass="ml-16 inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth="{1.5}"
+        stroke="currentColor"
+        ngClass="ml-0 mr-2 h-5 w-5"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 5v14m7-7H5" />
+      </svg>
+      New Project
+    </button>
+  </div>
+
+  <div id="projects" ngClass="flex flex-wrap flex-row gap-x-10 mx-auto">
+    <app-project-item
+      [item]="item"
+      [index]="i"
+      [length]="projects.length"
+      *ngFor="let item of projects; let i = index"
+      ngClass="flex flex-col basis-1/4  mt-5"
+    ></app-project-item>
+  </div>
+</div>

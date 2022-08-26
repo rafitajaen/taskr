@@ -1,0 +1,173 @@
+{
+  "username": "Samantha",
+  "projects": [
+    {
+      "title": "Green House",
+      "description": "Description of Green House",
+      "tasks": [
+        {
+          "delay": 0,
+          "isCompleted": false,
+          "title": "Create initial layout for homepage",
+          "status": 1
+        },
+        {
+          "delay": 0,
+          "isCompleted": true,
+          "title": "Fixing icons with transparent background",
+          "status": 2
+        },
+        {
+          "delay": 1,
+          "isCompleted": true,
+          "title": "Discussion regarding workflow improvements",
+          "status": 2
+        }
+      ]
+    },
+    {
+      "title": "Cyber Punk",
+      "description": "Description of Cyber Punk",
+      "tasks": [
+        {
+          "delay": 0,
+          "isCompleted": false,
+          "title": "Create initial layout for homepage",
+          "status": 1
+        },
+        {
+          "delay": 0,
+          "isCompleted": true,
+          "title": "Fixing icons with transparent background",
+          "status": 2
+        },
+        {
+          "delay": 1,
+          "isCompleted": true,
+          "title": "Discussion regarding workflow improvements",
+          "status": 2
+        }
+      ]
+    },
+    {
+      "title": "Easy Cripto",
+      "description": "Description of Easy Cripto",
+      "tasks": [
+        {
+          "delay": 0,
+          "isCompleted": false,
+          "title": "Create initial layout for homepage",
+          "status": 1
+        },
+        {
+          "delay": 0,
+          "isCompleted": true,
+          "title": "Fixing icons with transparent background",
+          "status": 2
+        },
+        {
+          "delay": 1,
+          "isCompleted": true,
+          "title": "Discussion regarding workflow improvements",
+          "status": 2
+        }
+      ]
+    },
+    {
+      "title": "Travel App",
+      "description": "Description of Travel App",
+      "tasks": [
+        {
+          "delay": 0,
+          "isCompleted": false,
+          "title": "Create initial layout for homepage",
+          "status": 1
+        },
+        {
+          "delay": 0,
+          "isCompleted": true,
+          "title": "Fixing icons with transparent background",
+          "status": 2
+        },
+        {
+          "delay": 1,
+          "isCompleted": true,
+          "title": "Discussion regarding workflow improvements",
+          "status": 2
+        }
+      ]
+    },
+    {
+      "title": "Landing Page",
+      "description": "Description of Landing Page",
+      "tasks": [
+        {
+          "delay": 0,
+          "isCompleted": false,
+          "title": "Create initial layout for homepage",
+          "status": 1
+        },
+        {
+          "delay": 0,
+          "isCompleted": true,
+          "title": "Fixing icons with transparent background",
+          "status": 2
+        },
+        {
+          "delay": 1,
+          "isCompleted": true,
+          "title": "Discussion regarding workflow improvements",
+          "status": 2
+        }
+      ]
+    },
+    {
+      "title": "Deploy on GCP",
+      "description": "Description of Deploy on GCP",
+      "tasks": [
+        {
+          "delay": 0,
+          "isCompleted": false,
+          "title": "Create initial layout for homepage",
+          "status": 1
+        },
+        {
+          "delay": 0,
+          "isCompleted": true,
+          "title": "Fixing icons with transparent background",
+          "status": 2
+        },
+        {
+          "delay": 1,
+          "isCompleted": true,
+          "title": "Discussion regarding workflow improvements",
+          "status": 2
+        }
+      ]
+    },
+    {
+      "title": "Hiring a new Web Developer",
+      "description": "Description of Hiring a new Web Developer",
+      "tasks": [
+        {
+          "delay": 0,
+          "isCompleted": false,
+          "title": "Create initial layout for homepage",
+          "status": 1
+        },
+        {
+          "delay": 0,
+          "isCompleted": true,
+          "title": "Fixing icons with transparent background",
+          "status": 2
+        },
+        {
+          "delay": 1,
+          "isCompleted": true,
+          "title": "Discussion regarding workflow improvements",
+          "status": 2
+        }
+      ]
+    }
+  ]
+}
